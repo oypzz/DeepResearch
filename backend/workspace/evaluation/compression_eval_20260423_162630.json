@@ -1,0 +1,61 @@
+{
+  "research_id": "20260423_162630",
+  "generated_at": "2026-04-23T16:26:30.359989",
+  "total_compressions": 4,
+  "metrics": [
+    {
+      "task_id": 4,
+      "original_length": 12940,
+      "compressed_length": 441,
+      "compression_ratio": 0.0341,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0136,
+      "timestamp": "2026-04-23T16:20:43.956322",
+      "task_topic": "Transformer基本概念"
+    },
+    {
+      "task_id": 3,
+      "original_length": 40058,
+      "compressed_length": 311,
+      "compression_ratio": 0.0078,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0024,
+      "timestamp": "2026-04-23T16:21:06.429225",
+      "task_topic": "Transformer基本概念"
+    },
+    {
+      "task_id": 1,
+      "original_length": 42032,
+      "compressed_length": 310,
+      "compression_ratio": 0.0074,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0022,
+      "timestamp": "2026-04-23T16:21:12.603534",
+      "task_topic": "Transformer基本概念"
+    },
+    {
+      "task_id": 2,
+      "original_length": 11394,
+      "compressed_length": 447,
+      "compression_ratio": 0.0392,
+      "recall": 0.0,
+      "precision": 0.3,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0208,
+      "timestamp": "2026-04-23T16:21:17.327823",
+      "task_topic": "Transformer基本概念"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.0221,
+    "avg_semantic_similarity": 0.0098,
+    "min_compression_ratio": 0.007375333079558431,
+    "max_compression_ratio": 0.03923117430226435
+  }
+}

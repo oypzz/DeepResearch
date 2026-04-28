@@ -1,0 +1,61 @@
+{
+  "research_id": "20260423_124026",
+  "generated_at": "2026-04-23T12:40:26.716394",
+  "total_compressions": 4,
+  "metrics": [
+    {
+      "task_id": 1,
+      "original_length": 51556,
+      "compressed_length": 435,
+      "compression_ratio": 0.0084,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.005,
+      "timestamp": "2026-04-23T12:33:50.427716",
+      "task_topic": "卷积神经网络"
+    },
+    {
+      "task_id": 3,
+      "original_length": 26762,
+      "compressed_length": 437,
+      "compression_ratio": 0.0163,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0056,
+      "timestamp": "2026-04-23T12:33:51.408242",
+      "task_topic": "卷积神经网络"
+    },
+    {
+      "task_id": 2,
+      "original_length": 19208,
+      "compressed_length": 446,
+      "compression_ratio": 0.0232,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0068,
+      "timestamp": "2026-04-23T12:33:54.842851",
+      "task_topic": "卷积神经网络"
+    },
+    {
+      "task_id": 4,
+      "original_length": 40455,
+      "compressed_length": 435,
+      "compression_ratio": 0.0108,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0049,
+      "timestamp": "2026-04-23T12:34:30.034204",
+      "task_topic": "卷积神经网络"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.0147,
+    "avg_semantic_similarity": 0.0056,
+    "min_compression_ratio": 0.008437427263558072,
+    "max_compression_ratio": 0.023219491878384006
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "research_id": "20260423_170936",
+  "generated_at": "2026-04-23T17:09:36.377520",
+  "total_compressions": 5,
+  "metrics": [
+    {
+      "task_id": 4,
+      "original_length": 36249,
+      "compressed_length": 2472,
+      "compression_ratio": 0.0682,
+      "recall": 0.1,
+      "precision": 0.2,
+      "f1_score": 0.13333333333333333,
+      "semantic_similarity": 0.1001,
+      "timestamp": "2026-04-23T17:07:28.568375",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 1,
+      "original_length": 32065,
+      "compressed_length": 2748,
+      "compression_ratio": 0.0857,
+      "recall": 0.1,
+      "precision": 0.3,
+      "f1_score": 0.15,
+      "semantic_similarity": 0.1442,
+      "timestamp": "2026-04-23T17:07:31.568646",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 2,
+      "original_length": 29631,
+      "compressed_length": 2355,
+      "compression_ratio": 0.0795,
+      "recall": 0.3,
+      "precision": 0.35,
+      "f1_score": 0.3230769230769231,
+      "semantic_similarity": 0.0678,
+      "timestamp": "2026-04-23T17:07:32.610259",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 5,
+      "original_length": 25871,
+      "compressed_length": 1966,
+      "compression_ratio": 0.076,
+      "recall": 0.35,
+      "precision": 0.55,
+      "f1_score": 0.42777777777777776,
+      "semantic_similarity": 0.04,
+      "timestamp": "2026-04-23T17:07:33.054367",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 3,
+      "original_length": 49091,
+      "compressed_length": 2391,
+      "compression_ratio": 0.0487,
+      "recall": 0.85,
+      "precision": 0.75,
+      "f1_score": 0.7968749999999999,
+      "semantic_similarity": 0.0639,
+      "timestamp": "2026-04-23T17:07:35.846564",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.0716,
+    "avg_semantic_similarity": 0.0832,
+    "min_compression_ratio": 0.048705465360249334,
+    "max_compression_ratio": 0.08570092000623733
+  }
+}

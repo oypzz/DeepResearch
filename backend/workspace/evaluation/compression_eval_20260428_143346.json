@@ -1,0 +1,73 @@
+{
+  "research_id": "20260428_143346",
+  "generated_at": "2026-04-28T14:33:46.298531",
+  "total_compressions": 5,
+  "metrics": [
+    {
+      "task_id": 1,
+      "original_length": 28136,
+      "compressed_length": 29343,
+      "compression_ratio": 1.0429,
+      "recall": 0.7,
+      "precision": 0.65,
+      "f1_score": 0.6740740740740739,
+      "semantic_similarity": 0.9796,
+      "timestamp": "2026-04-28T14:27:35.179498",
+      "task_topic": "卷积神经网络的最新进展"
+    },
+    {
+      "task_id": 2,
+      "original_length": 33938,
+      "compressed_length": 36027,
+      "compression_ratio": 1.0616,
+      "recall": 0.65,
+      "precision": 0.45,
+      "f1_score": 0.5318181818181819,
+      "semantic_similarity": 0.9898,
+      "timestamp": "2026-04-28T14:28:36.661796",
+      "task_topic": "卷积神经网络的最新进展"
+    },
+    {
+      "task_id": 3,
+      "original_length": 28113,
+      "compressed_length": 11245,
+      "compression_ratio": 0.4,
+      "recall": 0.3,
+      "precision": 0.5,
+      "f1_score": 0.37499999999999994,
+      "semantic_similarity": 0.6207,
+      "timestamp": "2026-04-28T14:29:35.048569",
+      "task_topic": "卷积神经网络的最新进展"
+    },
+    {
+      "task_id": 4,
+      "original_length": 45981,
+      "compressed_length": 49993,
+      "compression_ratio": 1.0873,
+      "recall": 0.2,
+      "precision": 0.15,
+      "f1_score": 0.17142857142857143,
+      "semantic_similarity": 0.9849,
+      "timestamp": "2026-04-28T14:30:48.840887",
+      "task_topic": "卷积神经网络的最新进展"
+    },
+    {
+      "task_id": 5,
+      "original_length": 27542,
+      "compressed_length": 27703,
+      "compression_ratio": 1.0058,
+      "recall": 0.65,
+      "precision": 0.45,
+      "f1_score": 0.5318181818181819,
+      "semantic_similarity": 0.9677,
+      "timestamp": "2026-04-28T14:31:58.800818",
+      "task_topic": "卷积神经网络的最新进展"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.9195,
+    "avg_semantic_similarity": 0.9085,
+    "min_compression_ratio": 0.3999928858535197,
+    "max_compression_ratio": 1.0872534307648811
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "research_id": "20260427_194225",
+  "generated_at": "2026-04-27T19:42:25.141829",
+  "total_compressions": 5,
+  "metrics": [
+    {
+      "task_id": 2,
+      "original_length": 40402,
+      "compressed_length": 29,
+      "compression_ratio": 0.0007,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0,
+      "timestamp": "2026-04-27T19:36:50.740935",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 3,
+      "original_length": 33783,
+      "compressed_length": 29,
+      "compression_ratio": 0.0009,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0,
+      "timestamp": "2026-04-27T19:36:52.432757",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 4,
+      "original_length": 18433,
+      "compressed_length": 29,
+      "compression_ratio": 0.0016,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0,
+      "timestamp": "2026-04-27T19:36:52.594210",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 1,
+      "original_length": 41931,
+      "compressed_length": 29,
+      "compression_ratio": 0.0007,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0,
+      "timestamp": "2026-04-27T19:36:53.747204",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 5,
+      "original_length": 43197,
+      "compressed_length": 29,
+      "compression_ratio": 0.0007,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "semantic_similarity": 0.0,
+      "timestamp": "2026-04-27T19:40:11.290335",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.0009,
+    "avg_semantic_similarity": 0.0,
+    "min_compression_ratio": 0.0006713429173322221,
+    "max_compression_ratio": 0.0015732653393370586
+  }
+}

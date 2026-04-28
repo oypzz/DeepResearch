@@ -1,0 +1,51 @@
+{
+  "research_id": "20260427_194225",
+  "generated_at": "2026-04-27T19:42:25.143830",
+  "records": [
+    {
+      "task_id": 2,
+      "original_length": 40402,
+      "compressed_length": 29,
+      "compression_ratio": 0.0007177862482055343,
+      "original_snippet": "信息来源: NeurIPS Poster Mixture-of-Experts Operator Transformer for Large-Scale PDE Pre-Training\n\nURL: https://neurips.cc/virtual/2025/poster/118221\n\n信息内容: # Mixture-of-Experts Operator Transformer for Large-Scale PDE Pre-Training. Pre-training has proven effective in addressing data scarcity and performance limitations in solving PDE problems with neural operators. However, challenges remain due to the heterogeneity of PDE datasets in equation types, which leads to high errors in mixed training. A...",
+      "compressed_text": "❌ 搜索失败: 所有嵌入模型都不可用，请安装依赖或检查配置",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 3,
+      "original_length": 33783,
+      "compressed_length": 29,
+      "compression_ratio": 0.0008584199153420359,
+      "original_snippet": "信息来源: LongNet and FlashAttention – Transforming LLM Efficiency\n\nURL: https://www.linkedin.com/pulse/longnet-flashattention-transforming-llm-efficiency-nikitha-r-5zq2e\n\n信息内容: LongNet is a Transformer variant designed to handle extremely long sequences (in the paper, up to millions of tokens) while still using\n\n详细信息内容限制为 2000 个 token: Agree & Join LinkedIn\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s [User Agreement](/legal/user-agreement?trk=linkedin-tc_auth-button_user-agree...",
+      "compressed_text": "❌ 搜索失败: 所有嵌入模型都不可用，请安装依赖或检查配置",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 4,
+      "original_length": 18433,
+      "compressed_length": 29,
+      "compression_ratio": 0.0015732653393370586,
+      "original_snippet": "信息来源: Parameter‐Efficient Multimodal Instruction Tuning for Romanian Vision–Language Models\n\nURL: https://arxiv.org/html/2512.14926v1\n\n信息内容: Finally, G-LLaVA achieves state-of-the-art results on geometry tasks, outperforming much larger models such as GPT-4V. Report issue for\n\n详细信息内容限制为 2000 个 token: # Parameter‐Efficient Multimodal Instruction Tuning for Romanian Vision–Language Models\n\n###### Abstract\n\nFocusing on low-resource languages is an essential step toward democratizing generative AI. ...",
+      "compressed_text": "❌ 搜索失败: 所有嵌入模型都不可用，请安装依赖或检查配置",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 1,
+      "original_length": 41931,
+      "compressed_length": 29,
+      "compression_ratio": 0.0006916124108654694,
+      "original_snippet": "信息来源: Latest Innovations in Transformer Architectures\n\nURL: https://www.linkedin.com/top-content/technology/latest-advancements-in-technology/latest-innovations-in-transformer-architectures/\n\n信息内容: Highlights:- • Mamba's debut (Dec 2023): Achieved linear-time inference ... • Nemotron‑H (NVIDIA, Apr 2025): Replaces 92% of attention layers, delivers\n\n详细信息内容限制为 2000 个 token: # Latest Innovations in Transformer Architectures\n\nExplore top LinkedIn content from expert professionals.\n\n## Summary\n\nThe l...",
+      "compressed_text": "❌ 搜索失败: 所有嵌入模型都不可用，请安装依赖或检查配置",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 5,
+      "original_length": 43197,
+      "compressed_length": 29,
+      "compression_ratio": 0.0006713429173322221,
+      "original_snippet": "信息来源: [PDF] Large Language Models Inference optimizations\n\nURL: https://extremecomputingtraining.anl.gov/sites/atpesc/files/2026-03/LLM%20Inference%20Optimizations.pdf\n\n信息内容: Efficient Transformer Neural Network Design Type of Inference Optimizations • Group Query Attention (GQA) • Mixture of Experts (MoE) LLM Algorithm Optimization Methods Hardware and memory management Techniques • Pruning • Quantization • KV Caching • Speculative Decoding Classification of LLM Inference Methods • PaggedAttent...",
+      "compressed_text": "❌ 搜索失败: 所有嵌入模型都不可用，请安装依赖或检查配置",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    }
+  ]
+}

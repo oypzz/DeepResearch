@@ -1,0 +1,89 @@
+INFO:hello_agents.memory.storage.qdrant_store:✅ 成功连接到Qdrant云服务: https://e346a08a-253a-4cd5-93f1-58bba0984332.sa-east-1-0.aws.cloud.qdrant.io:6333
+INFO:hello_agents.memory.storage.qdrant_store:✅ 使用现有Qdrant集合: hello_agents_vectors
+INFO:services.tool_events:Tool call recorded: agent=研究规划专家 tool=note task_id=1 note_id=note_20260428_143841_151 parsed_parameters={'action': 'create', 'task_id': 1, 'title': '新架构探索', 'note_type': 'task_state', 'tags': ['deep_research', 'task_1'], 'content': '调研2024-2026年CNN最新架构变体，如ConvNeXt、RepVGG、ConvMixer、混合注意力机制等，对比性能与创新点。'}
+INFO:services.tool_events:Tool call recorded: agent=研究规划专家 tool=note task_id=2 note_id=note_20260428_143841_152 parsed_parameters={'action': 'create', 'task_id': 2, 'title': '训练技巧与优化', 'note_type': 'task_state', 'tags': ['deep_research', 'task_2'], 'content': '收集先进训练策略：数据增强、知识蒸馏、自监督预训练、学习率调度、模型压缩（剪枝、量化、NAS）等，评估对CNN性能的影响。'}
+INFO:services.tool_events:Tool call recorded: agent=研究规划专家 tool=note task_id=3 note_id=note_20260428_143841_153 parsed_parameters={'action': 'create', 'task_id': 3, 'title': '应用与多模态', 'note_type': 'task_state', 'tags': ['deep_research', 'task_3'], 'content': '梳理CNN在最新应用场景（视频理解、3D点云、医学影像、多模态融合）中的进展，关注跨领域迁移与任务适配方法。'}
+INFO:services.tool_events:Tool call recorded: agent=研究规划专家 tool=note task_id=4 note_id=note_20260428_143841_154 parsed_parameters={'action': 'create', 'task_id': 4, 'title': '评估与基准', 'note_type': 'task_state', 'tags': ['deep_research', 'task_4'], 'content': '汇总ImageNet等主流基准上的最新SOTA结果（精度、速度、参数量），以及开源代码、预训练模型、公平比较框架。'}
+INFO:services.planner:Planner raw output (truncated): 已成功规划并创建 **4 个互补的调研任务**，覆盖卷积神经网络最新进展的核心维度。各任务通过笔记工具同步存储，便于后续协作与追踪。
+
+---
+
+### 📋 任务总览
+
+| 任务 | 标题 | 核心意图 | 关键词 |
+|------|------|---------|--------|
+| 1 | **新架构探索** | 调查2024‑2026年CNN创新架构（ConvNeXt、RepVGG、混合注意力等），分析性能优势与局限性 | `CNN latest architecture 2025 2026 ConvNeXt RepVGG ConvMixer attention hybrid` |
+| 2 | **训练技巧与优化** | 收集并对比提升CNN性能的最新训练方法（数据增强、知识蒸馏、自监督预训练、模型压缩等），找出精度‑效率最优策略 | `CNN training tricks knowledge distillation self-supervised learning data augmentation 2025 compression pruning` |
+| 3 | 
+WARNING:services.planner:All 4 fallback layers exhausted, attempting strict JSON regeneration
+INFO:services.planner:Strict JSON regeneration succeeded on attempt 1, got 5 tasks
+INFO:services.planner:Planner produced 5 tasks: ['最新CNN架构创新', 'CNN与Transformer混合模型', '轻量化CNN进展', 'CNN可解释性与理论', 'CNN在视觉任务SOTA']
+INFO:agent:真的运行到了这里
+INFO:services.search:Search backend=tavily resolved_backend=tavily answer=False results=5
+--- Logging error ---
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 943, in format
+    return fmt.format(record)
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not enough arguments for format string
+Call stack:
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\test_run.py", line 25, in <module>
+    main()
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\test_run.py", line 18, in main
+    report = researcher.run(topic=topic)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\agent.py", line 167, in run
+    for _ in self._execute_task(state, task, emit_stream=False):
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\agent.py", line 483, in _execute_task
+    summary_text = self.summarizer.summarize_task(state, task, context)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\services\summarizer.py", line 258, in summarize_task
+    optimized_context = self._optimize_context(task, context, state)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\services\summarizer.py", line 74, in _optimize_context
+    logger.info(
+Message: "[RAG Compression] 正在为任务 '%s' 进行RAG召回压缩，目标保留60%..."
+Arguments: ('最新CNN架构创新',)
+INFO:services.summarizer:[RAG Compression] 原始token数=10247, 目标token数=6148 (60%)
+INFO:hello_agents.memory.storage.qdrant_store:✅ 成功连接到Qdrant云服务: https://e346a08a-253a-4cd5-93f1-58bba0984332.sa-east-1-0.aws.cloud.qdrant.io:6333
+INFO:hello_agents.memory.storage.qdrant_store:✅ 使用现有Qdrant集合: hello_agents_vectors
+INFO:hello_agents.memory.storage.qdrant_store:[Qdrant] add_vectors start: n_vectors=5 n_meta=5 collection=hello_agents_vectors
+INFO:hello_agents.memory.storage.qdrant_store:[Qdrant] upsert begin: points=5
+INFO:hello_agents.memory.storage.qdrant_store:[Qdrant] upsert done
+INFO:hello_agents.memory.storage.qdrant_store:✅ 成功添加 5 个向量到Qdrant
+INFO:services.summarizer:[RAG Compression] 添加文档到RAG，分块数=5
+INFO:services.summarizer:[RAG Compression] 估计原始chunks数=12, 目标召回limit=8
+INFO:services.summarizer:[RAG Compression] 压缩完成: 10247 -> 17677 tokens (保留172.5%)
+INFO:agent:真的运行到了这里
+INFO:services.search:Search backend=tavily resolved_backend=tavily answer=False results=5
+--- Logging error ---
+Traceback (most recent call last):
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 943, in format
+    return fmt.format(record)
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "D:\miniconda3\envs\llms\lib\logging\__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not enough arguments for format string
+Call stack:
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\test_run.py", line 25, in <module>
+    main()
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\test_run.py", line 18, in main
+    report = researcher.run(topic=topic)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\agent.py", line 167, in run
+    for _ in self._execute_task(state, task, emit_stream=False):
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\agent.py", line 483, in _execute_task
+    summary_text = self.summarizer.summarize_task(state, task, context)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\services\summarizer.py", line 258, in summarize_task
+    optimized_context = self._optimize_context(task, context, state)
+  File "D:\pythonscript\pythonProject\hello-agents-main\code\chapter14\helloagents-deepresearch\backend\src\services\summarizer.py", line 74, in _optimize_context
+    logger.info(
+Message: "[RAG Compression] 正在为任务 '%s' 进行RAG召回压缩，目标保留60%..."
+Arguments: ('CNN与Transformer混合模型',)
+INFO:services.summarizer:[RAG Compression] 原始token数=4146, 目标token数=2487 (60%)
+INFO:hello_agents.memory.storage.qdrant_store:✅ 成功连接到Qdrant云服务: https://e346a08a-253a-4cd5-93f1-58bba0984332.sa-east-1-0.aws.cloud.qdrant.io:6333
+INFO:hello_agents.memory.storage.qdrant_store:✅ 使用现有Qdrant集合: hello_agents_vectors

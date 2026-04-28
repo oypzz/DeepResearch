@@ -1,0 +1,49 @@
+{
+  "research_id": "20260423_173726",
+  "generated_at": "2026-04-23T17:37:26.593412",
+  "total_compressions": 3,
+  "metrics": [
+    {
+      "task_id": 3,
+      "original_length": 34320,
+      "compressed_length": 13832,
+      "compression_ratio": 0.403,
+      "recall": 0.35,
+      "precision": 0.75,
+      "f1_score": 0.4772727272727271,
+      "semantic_similarity": 0.5912,
+      "timestamp": "2026-04-23T17:33:48.391757",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 2,
+      "original_length": 21734,
+      "compressed_length": 7088,
+      "compression_ratio": 0.3261,
+      "recall": 0.85,
+      "precision": 0.8,
+      "f1_score": 0.8242424242424243,
+      "semantic_similarity": 0.5538,
+      "timestamp": "2026-04-23T17:33:50.480267",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    },
+    {
+      "task_id": 1,
+      "original_length": 18634,
+      "compressed_length": 9612,
+      "compression_ratio": 0.5158,
+      "recall": 0.7,
+      "precision": 0.95,
+      "f1_score": 0.806060606060606,
+      "semantic_similarity": 0.5517,
+      "timestamp": "2026-04-23T17:33:53.318982",
+      "task_topic": "Transformer架构在NLP中的最新进展"
+    }
+  ],
+  "summary": {
+    "avg_compression_ratio": 0.415,
+    "avg_semantic_similarity": 0.5655,
+    "min_compression_ratio": 0.3261249654918561,
+    "max_compression_ratio": 0.5158312761618546
+  }
+}
